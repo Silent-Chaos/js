@@ -13,6 +13,27 @@ h1{
 }
 h2{
     margin-top: 0;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
 
+}
+button{
+    border:none;
+    padding-top: 10px;
+    padding-bottom:10px;
+    color:white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom:5px;
+    margin-top: 5px;
+    border-radius: 50px;
+    border-style: groove;
+    cursor: pointer;
+    
+
+}
+#increment-btn{
+    background-color: darkcyan;
+}
+#save-btn{
+    background-color: darkred;
 }
