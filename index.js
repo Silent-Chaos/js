@@ -1,10 +1,12 @@
-function countdown()
-{
-    console.log(1)
-    console.log(2)
-    console.log(3)
-    console.log(4)
-    console.log(5)
+let lap=document.getElementById("count")
+console.log(lap)
 
+let Count=0
+function countlap(){
+    Count=Count+1
+    lap.innerText=Count
 }
-countdown()
+function save(){
+    console.log(count)
+    
+}
